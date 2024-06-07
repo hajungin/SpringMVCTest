@@ -49,7 +49,7 @@ public class AdminService {
 
 
 	public void update(AdminDto adminDto) {
-		mapper.update(adminDto);
+		return mapper.update(adminDto);
 		
 	}
 

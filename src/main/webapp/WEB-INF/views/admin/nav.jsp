@@ -27,7 +27,7 @@ if(adminLoginedDto != null) {
 	
 	
 	<li>
-		<a href="<c:url value='/admin/getAllBooks'></c:url>">전체도서</a>
+		<a href="<c:url value='/book/list'></c:url>">전체도서</a>
 	</li>
 	
 	<li>

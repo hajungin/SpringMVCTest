@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE  mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.hhh.mapper.UserMapper">
+	<insert id="userInsert" parameterType="userDto">
+		INSERT INTO users (u_name, u_pw, u_phone, u_email)
+		VALUES (#{userDto.u_name},#{userDto.u_pw},#{userDto.u_phone},
+		#{userDto.u_email})
+	</insert>
+
+
+</mapper>
